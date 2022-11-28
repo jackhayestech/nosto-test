@@ -13,7 +13,7 @@ export default class Network {
     setAPIName(name : string)         { this.api_name = name; }
     getAPIName()                      { return this.api_name; }
     setAPIEndpoint(endpoint : string) { this.api_endpoint = endpoint; }
-    setAccessToken(username : string) { this.access_token = username; }
+    setAccessToken(access_token : string) { this.access_token = access_token; }
     getAPIKey()                       { return this.access_token; }
 
     connect() {
