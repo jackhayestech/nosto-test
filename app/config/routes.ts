@@ -1,6 +1,6 @@
 import indexRoute from '../controller/routes/index';
 import userRoute from '../controller/routes/user';
-import orderRoute from '../controller/routes/order';
+import orderRoute from '../controller/routes/order/order';
 import { Express } from 'express-serve-static-core';
 
 const GET_ROUTES = [
