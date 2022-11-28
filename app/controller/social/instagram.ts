@@ -5,7 +5,7 @@ export default class InstagramProvider extends Network  {
         super();
 
         this.setAPIEndpoint('https://graph.instagram.com/v2.8/');
-        this.setAccessToken('YnVyZ2VyaGFja2VyMTIz=');
+        this.setAccessToken('dG9tYXRvbGV0dHVjZTEyM3h4eXppbnN0YWdyYW0=');
         this.setAPIName('Instagram');
     }
 }
