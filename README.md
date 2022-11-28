@@ -63,3 +63,19 @@ Once you're done, please write a summary of the changes you have made, zip them 
 - Use nvm to install and use the node version specified in the .nvmmrc file using `nvm use` command
 - npm install
 - npm run start
+
+
+### Changes
+* I have updated the instagram api key to the correct one.
+* Removed the await from the notification functions to increase speed.
+* Moved the try catch out of the loop.
+* Improved various comments.
+* Added unit tests as an example.
+* Blanked out user password.
+
+### Changes I would recommend/do if I had more time
+* Move the api endpoint and api key to an env file.
+* Move email and social media functionality to separate microservices.
+* Improve test coverage and introduce e2e tests.
+* swagger/open api validation middleware for requests.
+* Security requirements for accessing user data.
