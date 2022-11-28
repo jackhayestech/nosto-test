@@ -5,9 +5,6 @@ import { sendToSocials, sendEmailNotification } from './utils'
 
 /**
  * Route handling a user ordering a burger
- * burger_name
- * burger_addons
- * user_id
  * @param req
  * @param res
  */
