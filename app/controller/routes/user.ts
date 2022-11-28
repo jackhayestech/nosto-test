@@ -7,7 +7,6 @@ import { Request, Response } from 'express';
  * @param res
  */
 export default function userRoute(req: Request, res: Response) {
-
     res.send(retrieveLoggedInUserData());
 }
 
